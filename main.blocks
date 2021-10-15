@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="ZC+J_y8|QCAdhX79O7#-">mySprite</variable><variable type="KIND_SpriteKind" id="C6yud{yG?a[:tEy;3^e4">Player</variable><variable type="KIND_SpriteKind" id=".e0vf0u2i/y*tV:vAAVr">Projectile</variable><variable type="KIND_SpriteKind" id="m|kddzct=5H`S,UgC8p}">Food</variable><variable type="KIND_SpriteKind" id="6^}8s%U[0vK8!{e^+bdT">Enemy</variable></variables><block type="pxt-on-start" id=".7dCOJ$*,5$H-;4J*[E#" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="S}q?$5kln2~kjM;6aqE9"><field name="VAR" id="ZC+J_y8|QCAdhX79O7#-">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="yNS[G/xBh^e-8@~?h8O="><value name="img"><shadow type="screen_image_picker" id="dmd15yGl2AefC~U*PHNQ"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . f f f f f f . . . . . . 
+. . . . e e e e e e . . . . . . 
+. . . e e 1 f 1 f e e . . . . . 
+. . 9 . e e e e e e . 9 . . . . 
+. 9 9 9 e e 2 2 e e 9 9 9 . . . 
+. 9 9 . . e e e e . . 9 9 . . . 
+. 9 9 9 9 6 6 1 6 9 9 9 9 . . . 
+. . 9 9 9 6 1 1 6 9 9 9 . . . . 
+. . . . 6 6 6 1 6 6 . . . . . . 
+. . . . 6 6 1 1 1 6 . . . . . . 
+. . . . 9 9 9 9 9 9 . . . . . . 
+. . . . 8 8 8 8 8 8 . . . . . . 
+. . . . 8 8 . . 8 8 . . . . . . 
+. . . . 8 8 . . 8 8 . . . . . . 
+. . . . f f . . f f . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"dmd15yGl2AefC~U*PHNQ"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="j//l_f}JAB(]m2%[.T.g"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="spritesaytext" id="_KifnfPn,9e/aW0[~wR["><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="this"><block type="variables_get" id="ElX)!W$Mk*[r80ugKK_K"><field name="VAR" id="ZC+J_y8|QCAdhX79O7#-">mySprite</field></block></value><value name="text"><shadow type="text" id="z^3Ui/csgLlIu5C+IxjU"><field name="TEXT">LESS GO!</field></shadow></value></block></next></block></statement></block></xml>
